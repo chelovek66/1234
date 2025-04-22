@@ -1,0 +1,3 @@
+tcp.analysis.flags || hsrp.state > 0 || stp.type == 0x80 || 
+ospf.msg == 5 || icmp.type >= 3 || tcp.flags.reset == 1 || 
+ip.ttl < 5
